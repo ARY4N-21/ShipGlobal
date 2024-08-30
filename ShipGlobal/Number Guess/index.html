@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 style="color: gray;">Guess a number from 1 to 100</h2>
+    <p id="message"></p>
+    <input type="text" id="guessInput" min="1" max="100">
+    <button onclick="checkGuess()">Check</button>
+    <p style="color: gray;">You have <span id="chances">5</span> chances.</p>
+    <button onclick="restartGame()">Restart</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
